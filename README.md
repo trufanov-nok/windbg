@@ -1,2 +1,3 @@
 # windbg
-A copy of Debugging tools for Windows from Microsoft Windows SDK for Windows 7 ISO required to install cdb.exe to use with Qt 5.5.1 for Windows (VS 2013)
+This is just a personal copy of `Debugging tools for Windows` from original `Microsoft Windows SDK for Windows 7` ISO.
+They are needed of you've installed `Qt 5 for Windows` with VS 20xx toolchain which is supplied without debugger (cdb.exe) onboard. Install and restart QtCreator to let it autodetect a new debugger. Then select it as active debugger for your build kit in Options\Build&Run\Kits.
